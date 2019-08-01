@@ -16,7 +16,7 @@ $$
 |a\rangle \otimes |b\rangle = a_{0}b_0|00\rangle+ a_{0}b_1|01\rangle+a_{1}b_0|10\rangle+ a_{1}b_1|11\rangle.
 $$
 
-We also make use of the tensor product to represent sing single qubit matrices on a multiqubit space. For example, here's an$$X$$ that acts only on the first qubit,
+We also make use of the tensor product to represent single qubit matrices on a multiqubit space. For example, here's an$$X$$ that acts only on the first qubit,
 
 $$
 X \otimes I= \begin{pmatrix} 0&1 \\ 1&0 \end{pmatrix} \otimes \begin{pmatrix} 1&0 \\ 0&1 \end{pmatrix} = \begin{pmatrix} 0&1&0&0 \\ 1&0&0&0\\0&0&0&1\\0&0&1&0 \end{pmatrix}, ~~~ I= \begin{pmatrix} 1&0 \\ 0&1 \end{pmatrix}.
